@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tests with WebRTC</title>
+</head>
+<body>
+
+    <div class="container">
+        Your id: <b id="local-id"></b>
+        <br/>
+        ID to connect:
+        <br/>
+        <input type="text" id="id-to-connect"/>
+        <button id="btn-connect">Connect</button>
+        <br/>
+    </div>
+
+    <script src="https://unpkg.com/peerjs@1.4.5/dist/peerjs.min.js"></script>
+    <script src="./protonp2p.js"></script>
+</body>
+</html>
